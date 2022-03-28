@@ -2,3 +2,8 @@
 *.tmp
 *checkpoints*
 *Untitled.ipynb
+temp/
+enron_mail/
+*.gz
+*.csv
+*.tar
