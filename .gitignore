@@ -2,8 +2,10 @@
 *.tmp
 *checkpoints*
 *Untitled.ipynb
+spark-warehouse/
 temp/
 enron_mail/
+archive/
 *.gz
 *.csv
 *.tar
