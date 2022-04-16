@@ -6,6 +6,7 @@ spark-warehouse/
 temp/
 enron_mail/
 archive/
+dataset/
 *.gz
 *.csv
 *.tar
