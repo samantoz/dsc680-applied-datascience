@@ -2,6 +2,9 @@ https://towardsdatascience.com/building-simulations-in-python-a-complete-walkthr
 https://dillinger.io/
 https://www.markdownguide.org/getting-started/
 
+--Modeling
+http://jasontdean.com/R/collegeScoreCard.html
+
 --- data analysis
 https://deepnote.com/@omar-khan/Analysis-of-COLLEGESCORECARD-dataset-VG7JYdzUTDOOFv003pRAVw
 

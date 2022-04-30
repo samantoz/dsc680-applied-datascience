@@ -10,9 +10,7 @@
 * [Limitations](#Limitations)
 * [Challenges](#Challenges)
 * [Ethical Assessment](#Assessment)
-
 * [References](#References)
-
 * [Questions](#Questions)
 
 <a name="BusinessProblem"></a>
@@ -22,6 +20,8 @@ It is a trend that almost all colleges employ predictive analytics and data anal
 * Are there certain schools or states where student debt and loan default rates are high compared to earnings?
 * Considering diversity, is there a good ratio of male/female, ethnic and racial mix?
 * What can we find about the income distribution patterns of the students getting admission?
+
+In this project I am planning to use machine learning to explore data on American colleges to predict post-graduate earnings. There are hundreds of different features that make each college unique, including: location, admission rates, tuition, demographics, average student loans, and average standardized test scores. I want to discover which of these features are most significant in predicting the median ten year post-graduate earnings for a given college.
 
 <a name="Background"></a>
 ### Introduction
@@ -65,12 +65,31 @@ The dataset consists of Instituition-level data files for 1996-97 through 2019-2
         
 <a name="Analysis"></a>
 ### Analysis
+The hypothesis for the study presented here is that a student’s future earnings are maximized by attending the best school they can get into, despite the cost.
+
+A better school has:
+
+> a higher average SAT score for attending students
+
+> more advanced degrees
+
+> high average faculty salaries
+
+> more selective admissions
+
+After collecting and analyzing data from the college scorecard I am in a position to evaluate this hypothesis. I found that institutions with high average faculty salaries and high average SAT scores cost more, but students that attend these schools make more money ten years after leaving the institution. Additionally, schools that offer more advanced degrees, such as bachelors and graduate degrees, produce students that make higher wages. I also found a statistically significant positive correlation between the cost of attending the institution and the median student salary ten years after leaving, indicating that post secondary schooling is a good investment. However, I did not find a strong correlation between admission rate and future earnings, indicating that difficulty of gaining entry to a school should not be a metric when determining where to obtain post secondary schooling.
 
 <a name="Conclusion"></a>
 ### Conclusion
+Overall, the College Scorecard represents a major advance in the effort to transparently compare colleges along dimensions of quality. It’s major limitation is the lack of any value-added metrics. Yet, it makes strides toward allowing college administrators, policy officials, and others responsible for the quality of a college to more readily identify and resolve its weaknesses, with a view to enhancing student well-being after attendance. It also can help make the market for higher education function more efficiently via greater transparency and consumer empowerment. However progress is severely limited by flaws in available data.
+
+
 
 <a name="Limitations"></a>
 ### Limitations
+1. Incomplete coverage. In the Scorecard’s case, this means the data are limited to federal aid recipients. For Payscale, it means a non-random sample and many institutions with no data. Neither report outcomes for students by graduate institution or program of study.
+2. Lack of outcomes data disaggregated by field of study. This is true for all multi-state databases.
+3. No measures of learning. Perhaps the serious omission related to data on college quality is the absence of any information about what students learn while in college. While achieving higher earnings are often a secondary goal, acquiring a body of useful or meaningful knowledge is perhaps the chief goal of higher education.
 
 <a name="Challenges"></a>
 ### Challenges / Issues
@@ -110,3 +129,6 @@ I am adding the below links with the subscripts to be refereneced within the doc
 
 <a name="Questions"></a>
 ### Questions
+
+1. At four-year colleges, are completion rates improving each year?
+2. Are College completion rates increasing for low-income students?
