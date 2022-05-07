@@ -3,7 +3,7 @@ https://dillinger.io/
 https://www.markdownguide.org/getting-started/
 
 --Modeling
-http://jasontdean.com/R/collegeScoreCard.html
+http://jasontdean.cohtmlm/R/collegeScoreCard.
 
 --- data analysis
 https://deepnote.com/@omar-khan/Analysis-of-COLLEGESCORECARD-dataset-VG7JYdzUTDOOFv003pRAVw
